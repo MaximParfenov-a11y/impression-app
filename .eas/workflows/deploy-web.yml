@@ -1,0 +1,9 @@
+name: Deploy web preview
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy_web:
+    name: Deploy web preview
+    type: deploy
